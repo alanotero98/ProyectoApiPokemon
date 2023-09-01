@@ -1,0 +1,15 @@
+.card{
+    height: 100%;
+    max-width: 100%;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     display: grid;
+     grid-template-columns: 33% 33% 33%; 
+     justify-items: end; /* Alinea los elementos horizontalmente al comienzo */
+     align-items: center;
+    overflow: hidden;
+   
+    /* grid-template-rows: 25% 1fr 25%; */
+} 

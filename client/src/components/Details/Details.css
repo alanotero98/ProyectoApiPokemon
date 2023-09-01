@@ -1,0 +1,128 @@
+.detail{
+    position: relative;
+    width: 100%;
+    height:100vh;
+  overflow: hidden;
+  background-image: url('./img/fondoPikachu.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-position: 0 70%;
+  background-size: 100% 100%;
+  
+
+}
+
+
+.t{
+    width: auto;
+    position: absolute;
+   padding-left: 20%;
+    padding-top: 0%;
+    font-size: 50px;
+   color: rgb(255, 181, 69);
+      animation: desplazarNombre 3s linear;
+  animation-fill-mode: forwards;
+    
+}
+
+.imagen{
+  position: absolute;
+  background-color: rgba(243, 65, 56, 0.681);
+   left: 15%;
+   top: 25%;
+    height: 440px;
+    border-radius: 50%;
+    animation: flotarr 5s ease-in-out infinite ;
+    animation: desplazarNombre2 3s linear;
+    z-index: 3;
+    border: 8px solid rgba(166, 159, 159, 0.339);
+    box-shadow: 13px 13px 10px rgba(0, 0, 0, 0.5);
+}
+          
+          
+@keyframes flotarr {
+    from {
+      transform: translateY(0);
+      box-shadow: 0 10px 20px rgba(4, 4, 4, 0.388);
+    }
+    to {
+      transform: translateY(-30px);
+      box-shadow: 0 10px 20px rgba(19, 19, 35, 0.74);
+    }
+  }
+
+.informacion{
+    position: absolute;
+    left: 65%;
+    top: 17%;
+    width: 30%;
+    
+}
+.info-hijo{
+    animation: desplazarNombre3 3s linear;
+    position: absolute;
+    left: 10%;
+    right: auto;
+    font-size: 15px;
+    color: rgb(245, 228, 162);
+}
+
+
+@keyframes desplazarNombre {
+    0% {
+        transform: translateY(0%);
+        transform: translateX(-110%);
+        
+      }
+      
+      60% {
+        transform: translateY(-20%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+  }
+
+  @keyframes desplazarNombre2 {
+    0% {
+        transform: translateY(0%);
+        transform: translateX(-300%);
+      }
+      50% {
+        transform: translateY(-20%);
+      }
+      65%{
+        transform: translateY(-5%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+  }
+ 
+  @keyframes desplazarNombre3 {
+    0% {
+        transform: translateY(0%);
+        transform: translateX(-600%);
+      }
+      60% {
+        transform: translateY(-40%);
+      }
+      65%{
+        transform: translateY(-35%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+  }
+
+  .boton{
+      position: absolute; /* Establece el posicionamiento absoluto */
+      background-color: rgba(209, 151, 5, 0.892);
+      color: aliceblue;
+      height: 50px;
+      width: 150px;
+      border-radius: 100px;
+      
+     
+  }
+  

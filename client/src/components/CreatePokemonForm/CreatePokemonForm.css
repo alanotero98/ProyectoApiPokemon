@@ -1,0 +1,65 @@
+.formulario{
+    background-color: #f7f7f7;
+    background-image: url('./img/64d2d4eb07e6773e3c7efae14a33afb0.gif');
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir el contenedor */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+}
+.form-container {
+    background-color: #f1f1f1e9; /* Color de fondo gris */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    width: 60%; /* Ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+   
+}
+
+.pokemon-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pokemon-form input,
+.pokemon-form select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pokemon-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.pokemon-form .back-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.pokemon-form .back-button:hover {
+    background-color: #5c5c5c;
+   
+}
+.error-message {
+    color: red; /* Cambia el color a tu preferencia */
+    font-size: 14px; /* Tamaño de fuente */
+    margin-top: 5px; /* Margen superior */
+  }
+  

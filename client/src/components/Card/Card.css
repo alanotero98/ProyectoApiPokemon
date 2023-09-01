@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+
+
+/* .divContenedor{
+  height: 241px;
+  width: 184px;
+  margin-right: 20px;
+} */
+
+.nombre {
+  color: rgb(255, 255, 255);
+}
+
+.Card {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f8bd09f3;
+  box-shadow: 0px 4px 20px rgb(0, 0, 0);
+  border-radius: 20px;
+  width: 265px;
+  height: 376px;
+  margin-top: 20%;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+  animation: flotar 3s ease-in-out infinite alternate;
+}
+
+@keyframes flotar {
+  from {
+    transform: translateY(0);
+    box-shadow: 0 10px 20px rgba(4, 4, 4, 0.388);
+  }
+  to {
+    transform: translateY(-30px);
+    box-shadow: 0 10px 20px rgba(19, 19, 35, 0.74);
+  }
+}
+
+.img:hover {
+  z-index: 1;
+  opacity: 0.7; /* Reduce la opacidad al pasar el mouse por encima */
+}
+
+.boton {
+  position: absolute;
+  right: 7px;
+  font-size: 39px;
+  width: 23px;
+  color: rgba(192, 2, 2, 0.999);
+  z-index: 2;
+  
+}
+
+.info {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.info .img {
+  position: relative;
+  overflow: hidden;
+}
+
+.info img {
+  background-color: rgba(255, 249, 249, 0.57);
+  width: 90%;
+  height: 220px;
+  border-radius: 55%;
+  margin-right: 10px;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+
+.info .buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+
+.info:hover .buttons {
+  opacity: 1;
+}
+
+.me-gusta {
+  position: relative;
+  margin-left: 5%;
+  font-size: 50px;
+  background: transparent;
+  border: none;
+}
+
+.ver-mas {
+  position: absolute;
+  font-size: 35px;
+ 
+  top: 65px; /* Cambia estos valores para ajustar la posición inicial */
+  left: 110px;
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.Card h2 {
+  font-size: 100%;
+  margin-top: 20px;
+}
+
+.id {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.nombre {
+  font-size: 41px;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.gender {
+  font-size: 15px;
+}
+
+.origin {
+  margin: 10px;
+  font-size: 10px;
+}

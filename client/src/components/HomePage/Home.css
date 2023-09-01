@@ -1,0 +1,84 @@
+.home{
+    background-image: url('./Img/fondoPikachu.jpg');
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo para cubrir el contenedor */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    height: 100%; /* Establecer la altura del contenedor */
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: center;
+  }
+  .Container{
+  margin: 80px;; /* Agrega margen alrededor del contenedor */
+  width: 75%; /* Ajusta el ancho del contenedor */
+  
+  }
+ 
+  .botonCrear {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 3%; /* Ajusta la distancia desde la parte superior */
+    left: 35%;
+    background-color: rgba(209, 151, 5, 0.892);
+    color: aliceblue;
+    height: 40px;
+    width: 190px;
+    border-radius: 100px;
+    border: none;
+   
+}
+
+.botonAtaque {
+  position: absolute; /* Establece el posicionamiento absoluto */
+  top: 18%; /* Ajusta la distancia desde la parte superior */
+  left: 1%;
+  background-color: rgba(209, 151, 5, 0.892);
+  color: aliceblue;
+  height: 40px;
+  width: 190px;
+  border-radius: 100px;
+  border: none;
+ 
+}
+.botonName {
+  position: absolute; /* Establece el posicionamiento absoluto */
+  top: 28%; /* Ajusta la distancia desde la parte superior */
+  left: 1%;
+  background-color: rgba(209, 151, 5, 0.892);
+  color: aliceblue;
+  height: 40px;
+  width: 190px;
+  border-radius: 100px;
+  border: none;
+ 
+}
+.botonLanding{
+  position: absolute; /* Establece el posicionamiento absoluto */
+  top: 3%; /* Ajusta la distancia desde la parte superior */
+  left: 19%;
+  background-color: rgba(209, 151, 5, 0.892);
+  color: aliceblue;
+  height: 40px;
+  width: 190px;
+  border-radius: 100px;
+  border: none;
+}
+
+.botonPoke{
+  position: absolute; /* Establece el posicionamiento absoluto */
+  top: 39%; /* Ajusta la distancia desde la parte superior */
+  left: 1%;
+  background-color: rgba(209, 151, 5, 0.892);
+  color: aliceblue;
+  height: 40px;
+  width: 190px;
+  border-radius: 100px;
+  border: none;
+}
+.botonCrear:hover {
+    box-shadow: 0 3px 4px 3px rgba(0, 0, 0, 0.219); /* Aplica la sombra al colocar el cursor sobre el botón */
+}
+.botonLanding:hover {
+  box-shadow: 0 3px 4px 3px rgba(0, 0, 0, 0.219); /* Aplica la sombra al colocar el cursor sobre el botón */
+}
